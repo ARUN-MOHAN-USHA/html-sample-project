@@ -1,0 +1,45 @@
+body{
+    background-color: cornsilk;
+}
+h1{
+    text-align: center;
+    color: darkred;
+    font-size: 300%;
+}
+#h{
+   background-color: aqua; 
+}
+.d{
+    background-color: coral;
+}
+*{
+    text-decoration: dashed;
+    text-align: center;   
+}
+h2, td {
+    color: darkslategrey;
+}
+tr th{
+    background-color: seagreen;
+}
+form > label{
+    color: blueviolet;
+}
+div + h2{
+    color: blue;
+}
+div ~ h2{
+    background-color: chartreuse;   
+}
+a[href] {
+    color: black;
+}
+a:hover {
+    color: darkgreen;
+}
+a:visited {
+    color: coral;
+}
+a:active {
+    color: gold;
+}
